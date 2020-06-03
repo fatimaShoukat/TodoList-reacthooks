@@ -39,6 +39,9 @@ function App() {
 
   return (
     <div className="app">
+            <h1>Todos</h1>
+            <hr></hr>
+
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo
