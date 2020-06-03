@@ -4,7 +4,7 @@ import React, { useState } from 'react';
     return (
       <div
         className="todo"
-        style={{ backgroundColor: todo.isCompleted ? "green" : "white" }}
+        style={{ backgroundColor: todo.isCompleted ? "#C589B1" : "white" }}
       >
         {todo.text}
   
